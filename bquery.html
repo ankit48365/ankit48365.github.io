@@ -1,0 +1,203 @@
+<!DOCTYPE HTML>
+<!--
+	Ankit by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>This is my Portfolio (Beta)</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>Project</strong></a>
+									<ul class="icons">
+										
+										<li><a href="https://github.com/ankit48365" class="icon brands fa-github"><span class="label">Github</span></a></li>
+										<li><a href="https://www.linkedin.com/in/ankit-k-b9779287/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+										<li><a href="https://500px.com/p/ankit_fotografia" class="icon brands fa-500px"><span class="label">500px</span></a></li>
+										<li><a href="https://stackoverflow.com/users/19161399/ankiz" class="icon brands fa-stack-overflow"><span class="label">Stack-overflow</span></a></li>
+
+										<!-- <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
+										<!-- <li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li> -->
+									</ul>
+								</header>
+
+							<!-- Banner -->
+								<section id="banner">
+									<div class="content">
+										<header>
+											<!-- <h1>Hi, I’m Ankit</h1> -->
+											<h2>Google BigQuery Data Platform</h2>
+											<!-- <p>SAFe®5 POPM | MDM | TALEND | ETL Engineer</p> -->
+										</header>
+											<div style="text-align: center;">
+											<table>
+												<tr>
+												<td align="center"><img src="./logo/microsoft-sql-server-log.png" width="50"/></td>
+												<td align="center"><img src="./logo/Python-logo.png" width="50"/></td>
+												<td align="center"><img src="./logo/airflow-svgrepo-com.png" width="50"/></td>
+												<td align="center"><img src="./logo/dbt-svgrepo-com.png" width="50"/></td>
+												<td align="center"><a href="https://console.cloud.google.com/"><img src="./logo/BigQueryLogo2.png" width="50"/></td>
+												<td align="center"><img src="./logo/github-svgrepo-com.png" width="50"/></td>
+												<td align="center"><a href="https://app.lightdash.cloud/"><img src="./logo/lightdashlogo.png" width="50"/></a></td>
+												</tr>
+											</table>
+											</div>
+											<h4>Project Overview:</h4>
+											
+											<p>This project aimed to design and implement a scalable and efficient data platform for processing, transforming, and analyzing sales and inventory data from a <em>pizza store's</em> operational system. The end goal was to produce meaningful business metrics such as total sales, total profit, and quarterly profit using advanced data engineering principles and modern technologies.
+												<a href="https://github.com/ankit48365/bigquery_dwh">(Github Repository...)</a>
+											</p>
+											<h4>Technologies and Their Roles:</h4>
+											<h5>Apache Airflow (Orchestration):</h5>
+											<ul>
+												<li>Used as the orchestration tool to schedule, manage, and monitor all ETL workflows.</li>
+												<li>Ensured seamless integration between various stages of the data pipeline, from data extraction to loading and transformation.</li>
+												<li>Orchestrated Python scripts for data extraction and BigQuery CLI commands for data uploads.</li>
+											</ul>
+											<h5>Python Scripts (Data Extraction):</h5>
+											<ul>
+												<li>Extracted raw data from the MS SQL Server, converting it into structured CSV files.</li>
+												<li>Automated the creation of CSVs to ensure efficient transfer to staging directories..</li>
+											</ul>
+											<h5>BigQuery CLI (Data Loading):</h5>
+											<ul>
+												<li>Facilitated the transfer of the CSV files into BigQuery's staging area.</li>
+												<li>Handled large volumes of data efficiently and ensured accurate placement in staging tables for further processing.</li>
+											</ul>
+											<h5>BigQuery (Data Repository):</h5>
+											<ul>
+												<li>Served as the primary data warehouse to store raw, transformed, and aggregated data.</li>
+												<li>Ensured high-performance query execution and scalability for large datasets.</li>
+											</ul>
+											<h5>dbt Core(Data Transformation & Semantic Layer):</h5>
+											<ul>
+												<li>Transformed raw OLTP tables into a well-defined semantic layer, adhering to best practices for data modeling.</li>
+												<li>Created reusable, documented models to calculate business metrics and measures such as total sales, total profit, and inventory trends.</li>
+												<li>Enabled data consistency and efficiency in reporting processes.</li>
+											</ul>
+											<h5>Metrics Delivery:</h5>
+											<ul>
+												<li>Generated business-critical metrics like total sales, total profit, and quarterly performance to support decision-making.</li>
+												<li>The semantic layer provided self-service analytics capabilities for stakeholders.</li>
+											</ul>
+
+
+										<ul class="actions">
+											<li><a href="Portfolio.html" class="button big">Back Portfolio</a></li>
+										</ul>
+									</div>
+									<span class="image object">
+										<p></p>
+										<h5>Integration Diagram</h5>
+										<img src="images/integration_diagram.png" alt="" style="width: 100%; height: auto;" />
+										<p></p>
+
+										<h5>Airflow Orchestration Screenshot</h5>
+										<img src="images/Airflow_bquery.png" alt="" style="width: 100%; height: auto;" />
+										<p></p>
+
+										<h5>Lighdash Reporting Dashboard Screenshot</h5>
+										<img src="images/lighdash_dashboard.png" alt="" style="width: 100%; height: auto;" />
+
+
+									</span>
+									<!-- <div class="image-container">
+										<h3>Integration Diagram</h3>
+										<img src="images/integration_diagram.png" alt="" style="width: 100%; height: auto; margin-bottom: 20px;" />
+										
+										<h3>Airflow and BigQuery Workflow</h3>
+										<img src="images/Airflow_bquery.png" alt="" style="width: 100%; height: auto; margin-bottom: 20px;" />
+										
+										<h3>Lightdash Dashboard</h3>
+										<img src="images/lighdash_dashboard.png" alt="" style="width: 100%; height: auto; margin-bottom: 20px;" />
+									</div> -->
+								</section>
+
+							
+
+							<!-- Section -->
+								<!-- <section>
+									<header class="major">
+										<h2>Ipsum sed dolor</h2>
+									</header>
+									<div class="posts">
+										<article>
+											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+											<h3>Interdum aenean</h3>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											<ul class="actions">
+												<li><a href="#" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+											<h3>Nulla amet dolore</h3>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											<ul class="actions">
+												<li><a href="#" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+											<h3>Tempus ullamcorper</h3>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											<ul class="actions">
+												<li><a href="#" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
+											<h3>Sed etiam facilis</h3>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											<ul class="actions">
+												<li><a href="#" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
+											<h3>Feugiat lorem aenean</h3>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											<ul class="actions">
+												<li><a href="#" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
+											<h3>Amet varius aliquam</h3>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+											<ul class="actions">
+												<li><a href="#" class="button">More</a></li>
+											</ul>
+										</article>
+									</div>
+								</section> -->
+
+						</div>
+					</div>
+
+							
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
